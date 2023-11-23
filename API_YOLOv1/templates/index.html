@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Object Detection</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Object Detection</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <input type="file" class="form-control-file" name="image">
+            </div>
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary">Detection Object</button>
+            </div>
+        </form>
+        {% if message %}
+            <p class="text-danger text-center">{{ message }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
