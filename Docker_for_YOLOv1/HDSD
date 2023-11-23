@@ -1,0 +1,7 @@
+
+1 Create a Dockerfile
+2 Create a requirements.txt
+3 Build a container
+    docker build -t testmodel .
+4 Run a container
+    docker run -p 5005:5000 testmodel
