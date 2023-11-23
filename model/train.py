@@ -35,7 +35,7 @@ EPOCHS = 1000
 NUM_WORKERS = 2
 PIN_MEMORY = True
 LOAD_MODEL = True
-LOAD_MODEL_FILE = "overfit.pth.tar"
+LOAD_MODEL_FILE = "my_checkpoint.pth.tar"
 IMG_DIR = "data/images"
 LABEL_DIR = "data/labels"
 
