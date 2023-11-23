@@ -280,7 +280,7 @@ def cellboxes_to_boxes(out, S=7):
 
 def test_image(image_path):
     # Đường dẫn tới checkpoint model đã được lưu sau quá trình đào tạo
-    checkpoint_path = 'overfit.pth.tar'
+    checkpoint_path = 'my_checkpoint.pth.tar'
 
     # Kiểm tra xem có một checkpoint lưu trạng thái của mô hình không
     if os.path.exists(checkpoint_path):
