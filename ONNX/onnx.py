@@ -10,7 +10,7 @@ import torch.onnx
 import os
 
 #Create ONNX
-checkpoint_path = '/content/drive/MyDrive/YOLOv1/overfit.pth.tar'
+checkpoint_path = '/content/drive/MyDrive/YOLOv1/my_checkpoint.pth.tar'
 
 # Load your trained YOLOv1 model (replace with your actual model loading code)
 if os.path.exists(checkpoint_path):
